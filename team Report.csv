@@ -1,0 +1,18 @@
+Test Case,Scenario, Result2023-01-03, URL
+Login Credential,Username:Shakeel_QA_Admin,Password:AA@@1122
+Login Module,Login With Correct Username and Password,Login Successfully,https://staging.brandsignals.io/campaign/
+Team Module,Check Team Name Less then 5 Characters,TeamName must be between 5 - 50 characters and Special characters are not allowed.,https://staging.brandsignals.io/available-teams/
+Team Module,Check Team Name With Special Characters,TeamName must be between 5 - 50 characters and Special characters are not allowed.,https://staging.brandsignals.io/available-teams/
+Team Module,Check Team Name Above 5 Characters,Username Accpeted,https://staging.brandsignals.io/available-teams/
+Team Module,Select Primary Manager(User Selected ),Shakeel U_T,https://staging.brandsignals.io/available-teams/
+Team Module,Select Secondary Manager(User Selected ),Baba_Shakeel1,https://staging.brandsignals.io/available-teams/
+Team Module,Add Description,Description Added,https://staging.brandsignals.io/available-teams/
+Team Module,Click on Create Button,Team Created Successfully!,https://staging.brandsignals.io/available-teams/
+Team Module,Created Team Name,Shakeel_J_P,https://staging.brandsignals.io/available-teams/
+Team Module,Edit Team and Change Name,Team Record Updated Successfully!,https://staging.brandsignals.io/available-teams/update-team/599
+Team Module,Edited Team Name,QA_PTA,https://staging.brandsignals.io/available-teams/
+Team Module,Select User (User Selected ),Shakeel U2,https://staging.brandsignals.io/available-teams/update-team/599
+Team Module,Assign User to Team,User Assigned to Team Successfully!,https://staging.brandsignals.io/available-teams/
+Team Module,Click View Team Button,View Team Button is Working,https://staging.brandsignals.io/available-teams/details/599/ 
+Team Module,Select User (User Selected ),Shakeel 44,https://staging.brandsignals.io/available-teams/details/599/
+Team Module,Assign User to Team,User Assigned to Team Successfully!,https://staging.brandsignals.io/available-teams/details/599/

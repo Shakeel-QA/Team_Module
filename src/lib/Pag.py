@@ -9,7 +9,7 @@ class HomePage:
 
 
 class LoginPage(HomePage):
-    url = "https://staging.brandsignals.io/campaign//"
+    url = "https://staging.brandsignals.io/"
 
     def __init__(self, driver):
         self.driver = driver

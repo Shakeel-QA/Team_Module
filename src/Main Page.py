@@ -29,10 +29,10 @@ PASS_WORD = "AA@@1122"
 
 THREE_CHARACTERS = "ABC"
 SPECIAL_CHARACTERS = "#$@$@#$#$$"
-TEAM_NAME = "Shakeel_Q_A2"
+TEAM_NAME = "Shakeel_Q_PB1"
 DESCRIPTION = "Shakeel is testing from selenium"
 # SEARCH_TEAM = TEAM_NAME
-EDIT_NAME = "QA_Automation_Testing 1"
+EDIT_NAME = "QA_Automation_Tester1B1"
 
 
 def main():
@@ -95,7 +95,7 @@ def main():
     pop_nam2 = driver.find_element(By.XPATH, "//*[@id='usernameteam']").text
     make_csv(
         "team Report.csv",
-        f"Team Module,Check Team Name Above 5 Characters,Username Accpeted,{url_s}\n",
+        f"Team Module,Check Team Name Above 5 Characters,Username Accepted,{url_s}\n",
         new=False,
     )
     time.sleep(3)
@@ -144,7 +144,7 @@ def main():
 
     Create_Buttonn = Click(driver)
     Team_Module.Click_button(TeamModuleResources.Create_Team_Btn)
-    time.sleep(0.5)
+    time.sleep(1)
     pop_Team_Creates = driver.find_element(By.ID,"popUpMessage").text  
     make_csv('team Report.csv',f'Team Module,Click on Create Button,{pop_Team_Creates},{url_s}\n', new=False)
     make_csv('team Report.csv',f'Team Module,Created Team Name,{TEAM_NAME},{url_s}\n', new=False)
@@ -176,8 +176,8 @@ def main():
     Save_Button.Click_button(TeamModuleResources.Save_Button)
     time.sleep(1)
     
-    pop_Team_Edit = driver.find_element(By.ID,"popUpMessage").text 
-    make_csv('team Report.csv',f'Team Module,Edit Team and Change Name,{pop_Team_Edit},{url_t}\n', new=False)
+    pop_Team_Editing = driver.find_element(By.ID,"popUpMessage").text 
+    make_csv('team Report.csv',f'Team Module,Edit Team and Change Name,{pop_Team_Editing},{url_t}\n', new=False)
     make_csv('team Report.csv',f'Team Module,Edited Team Name,{EDIT_NAME},{url_s}\n', new=False)
     time.sleep(3)
 

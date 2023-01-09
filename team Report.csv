@@ -1,18 +1,18 @@
-Test Case,Scenario, Result2023-01-05, URL
+Test Case,Scenario, Result2023-01-09, URL
 Login Credential,Username:Shakeel_QA_Admin,Password:AA@@1122
 Login Module,Login With Correct Username and Password,Login Successfully,https://staging.brandsignals.io/campaign/
 Team Module,Check Team Name Less then 5 Characters,TeamName must be between 5 - 50 characters and Special characters are not allowed.,https://staging.brandsignals.io/available-teams/
 Team Module,Check Team Name With Special Characters,TeamName must be between 5 - 50 characters and Special characters are not allowed.,https://staging.brandsignals.io/available-teams/
-Team Module,Check Team Name Above 5 Characters,Username Accpeted,https://staging.brandsignals.io/available-teams/
-Team Module,Select Primary Manager(User Selected ),Shakeel_QA_R,https://staging.brandsignals.io/available-teams/
-Team Module,Select Secondary Manager(User Selected ),Honk Kong,https://staging.brandsignals.io/available-teams/
+Team Module,Check Team Name Above 5 Characters,Username Accepted,https://staging.brandsignals.io/available-teams/
+Team Module,Select Primary Manager(User Selected ),QA_Tester_1,https://staging.brandsignals.io/available-teams/
+Team Module,Select Secondary Manager(User Selected ),Shakeel_T1,https://staging.brandsignals.io/available-teams/
 Team Module,Add Description,Description Added,https://staging.brandsignals.io/available-teams/
-Team Module,Click on Create Button,Team Created Successfully!,https://staging.brandsignals.io/available-teams/
-Team Module,Created Team Name,Shakeel_Q_A2,https://staging.brandsignals.io/available-teams/
-Team Module,Edit Team and Change Name,Team Record Updated Successfully!,https://staging.brandsignals.io/available-teams/update-team/603
-Team Module,Edited Team Name,QA_Automation_Testing 1,https://staging.brandsignals.io/available-teams/
-Team Module,Select User (User Selected ),Shakeel 44,https://staging.brandsignals.io/available-teams/update-team/603
+Team Module,Click on Create Button,Error In Team Creation,https://staging.brandsignals.io/available-teams/
+Team Module,Created Team Name,Shakeel_Q_PB1,https://staging.brandsignals.io/available-teams/
+Team Module,Edit Team and Change Name,Team Record Updated Successfully!,https://staging.brandsignals.io/available-teams/update-team/608
+Team Module,Edited Team Name,QA_Automation_Tester1B1,https://staging.brandsignals.io/available-teams/
+Team Module,Select User (User Selected ),Account User21,https://staging.brandsignals.io/available-teams/update-team/608
 Team Module,Assign User to Team,User Assigned to Team Successfully!,https://staging.brandsignals.io/available-teams/
-Team Module,Click View Team Button,View Team Button is Working,https://staging.brandsignals.io/available-teams/details/603/ 
-Team Module,Select User (User Selected ),QA Shakeel 90,https://staging.brandsignals.io/available-teams/details/603/
-Team Module,Assign User to Team,User Assigned to Team Successfully!,https://staging.brandsignals.io/available-teams/details/603/
+Team Module,Click View Team Button,View Team Button is Working,https://staging.brandsignals.io/available-teams/details/608/ 
+Team Module,Select User (User Selected ),Shakeel U2,https://staging.brandsignals.io/available-teams/details/608/
+Team Module,Assign User to Team,User Assigned to Team Successfully!,https://staging.brandsignals.io/available-teams/details/608/
